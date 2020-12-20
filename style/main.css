@@ -1,0 +1,40 @@
+:root {
+    --vermelho: rgb(229,9,20);
+    --preta: rgb(0, 0, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: var(--preta);
+    font-family: helvetica, sans-serif, Arial;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 40px;
+    margin: 8px 10px;
+}
+
+header .logo {
+    height: 40px;
+    width: 134px;
+}
+
+header nav a {
+    color: #aaaaaa;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #ffffff;
+}
