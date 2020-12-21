@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/Favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./style/main.css">
+    
+    <!-- responsividade -->
+    <link rel="stylesheet" href="./style/responsive.css">
+    
+    <!-- arquivos do owl css-->
+    <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
     <title>Netflix Clone</title>
 </head>
 <body>
@@ -25,18 +32,57 @@
                 <h3 class="titulo">Dark</h3>
                 <p class="descricao">Quatro famílias iniciam uma desesperada busca por respostas quando uma criança desaparece e um complexo mistério envolvendo três gerações começa a se revelar.</p>
                 <div class="button">
-                    <button role="button" class="botao">
-                        <i class="fas fa-play"></i>
-                        Assistir já
-                    </button>
-                    <button role="button" class="botao">
-                        <i class="fas fa-info-circle"></i>
-                        Mais Informações
-                    </button>
+                   <a href="https://www.youtube.com/watch?v=JkUWmxhtU4E&ab_channel=NetflixBrasil">
+                        <button role="button" class="botao">
+                            <i class="fas fa-play"></i>
+                            Assistir já
+                        </button>
+                   </a>
+                   <a href="https://dark.netflix.io/pt">
+                        <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
+                            Mais Informações
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
     </main>
+
+    <section class="carrosel-filme">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="./img/a-viagem-de-chihiro.jpg" class="box-filme" alt="A viagem de chihiro">
+            </div>
+            <div class="item">
+                <img src="./img/Princesa-mononoke.jpg" class="box-filme" alt="Princesa Mononoke">
+            </div>
+            <div class="item">
+                <img src="./img/senhor-dos-Aneis.jpg" class="box-filme" alt="Senhor dos Aneis">
+            </div>
+            <div class="item">
+                <img src="./img/amelie-poulain.jpg" class="box-filme" alt="O fabuloso destino de amelie poulain">
+            </div>
+            <div class="item">
+                <img src="./img/ela.jpg" class="box-filme" alt="Ela">
+            </div>
+            <div class="item">
+                <img src="./img/Interestelar.jpg" class="box-filme" alt="Interestelar">
+            </div>
+            <div class="item">
+                <img src="./img/o-show-truman.jpg" class="box-filme" alt="O show de trman">
+            </div>
+            <div class="item">
+                <img src="./img/jojo-rabbit.jpg" class="box-filme" alt="Jojo rabbit">
+            </div>
+            <div class="item">
+                <img src="./img/hisDarkMaterials.jpg" class="box-filme" alt="His dark Materials">
+            </div>
+        </div>
+    </section>
     <script src="https://kit.fontawesome.com/f78867f711.js" crossorigin="anonymous"></script>
+    <script src="./js/owl/jquery.min.js"></script>
+    <script src="./js/owl/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

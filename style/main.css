@@ -36,7 +36,7 @@ header .logo {
 
 header nav a {
     color: var(--cinza);
-    margin-right: 10px;
+    margin-right: 5px;
     transition: 0.3s ease-in-out;
 }
 
@@ -60,11 +60,11 @@ header nav a:hover {
 
 .filme-principal .descricao {
     margin-top: 10px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
-.titulo {
-    margin-top: 15px;
+.filme-principal .titulo {
+    margin-top: 15%;
     font-size: 40px;
 }
 
@@ -72,20 +72,36 @@ header nav a:hover {
     background-color: rgba(239, 53, 44, 0.7);
     border: none;
     color: var(--branco);
-
     padding: 15px 30px;
-    min-width: 150px;
-    margin: 16px 0 16px 16px;
+    width: 200px;
     font-size: 12px;
     transition: .3s ease all;
 }
 
 .botao:hover{
     padding: 17px 35px;
-    min-width: 170px;
+    width: 210px;
     cursor: pointer;
 }
 
 .botao i {
     margin-right: 5px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filme {
+    margin-top: 5px;
 }
